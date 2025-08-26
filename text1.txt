@@ -60,4 +60,17 @@ git reset  --soft HEAD^
 コミットを１ステップ削除
 (add前まで戻る)
 
+git reset --hard コミットID
+指定したコミットID時点の保存状況に巻き戻る
+あんまやると他の人が混乱するから注意
+
+＝＝＝＝リモートリポジトリ＝＝＝＝
+webのGitHabからyour repository
+→new
+
+パブリックとプライベートを選択
+
+作成したら
+git remote add origin [URL]をコピペ
+git push origin master　で紐づけ
 
