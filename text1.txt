@@ -74,3 +74,11 @@ webのGitHabからyour repository
 git remote add origin [URL]をコピペ
 git push origin master　で紐づけ
 
+==要確認(取り消し難)==
+git push origin master
+ローカルで保存したものをアップロード
+
+緑のCode→ダウンロードZIP
+
+
+
