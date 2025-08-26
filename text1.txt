@@ -56,7 +56,7 @@ git commit --amend
 「エスケープキー」で読み取りモードに戻る
 さらに「:wq」で通常に復帰
 
-git reset  --soft HEAD
+git reset  --soft HEAD^
 コミットを１ステップ削除
 (add前まで戻る)
 
